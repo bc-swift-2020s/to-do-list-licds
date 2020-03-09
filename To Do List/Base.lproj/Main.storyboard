@@ -38,7 +38,7 @@
                                                     <rect key="frame" x="31" y="11" width="24" height="22"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" image="rectangle" catalog="system"/>
-                                                    <state key="selected" image="checkmark.rectangle" catalog="system"/>
+                                                    <state key="selected" backgroundImage="checkmark.rectangle" catalog="system"/>
                                                     <connections>
                                                         <action selector="checkToggled:" destination="7hQ-nb-AQT" eventType="touchUpInside" id="P9y-Fm-zeZ"/>
                                                     </connections>
