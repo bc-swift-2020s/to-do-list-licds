@@ -15,6 +15,10 @@
 		04C9826923F1D70400B867F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C9826823F1D70400B867F3 /* Assets.xcassets */; };
 		04C9826C23F1D70400B867F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C9826A23F1D70400B867F3 /* LaunchScreen.storyboard */; };
 		04C9827423F1DFC200B867F3 /* ToDoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9827323F1DFC200B867F3 /* ToDoDetailTableViewController.swift */; };
+		04CC9F732416B6B60092B316 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC9F722416B6B60092B316 /* ListTableViewCell.swift */; };
+		04CC9F752416BE8C0092B316 /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC9F742416BE8C0092B316 /* ToDoItems.swift */; };
+		04CC9F772416C2FD0092B316 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC9F762416C2FD0092B316 /* LocalNotificationManager.swift */; };
+		04CC9F792416CBD80092B316 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC9F782416CBD80092B316 /* UIViewController+Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		04C9826B23F1D70400B867F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C9826D23F1D70400B867F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C9827323F1DFC200B867F3 /* ToDoDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailTableViewController.swift; sourceTree = "<group>"; };
+		04CC9F722416B6B60092B316 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		04CC9F742416BE8C0092B316 /* ToDoItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
+		04CC9F762416C2FD0092B316 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		04CC9F782416CBD80092B316 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +71,12 @@
 				04C9825F23F1D70100B867F3 /* AppDelegate.swift */,
 				04C9826123F1D70100B867F3 /* SceneDelegate.swift */,
 				04B4E00823F1FEDC00C85906 /* ToDoItem.swift */,
+				04CC9F742416BE8C0092B316 /* ToDoItems.swift */,
 				04C9826323F1D70100B867F3 /* ToDoListViewController.swift */,
 				04C9827323F1DFC200B867F3 /* ToDoDetailTableViewController.swift */,
+				04CC9F782416CBD80092B316 /* UIViewController+Alert.swift */,
+				04CC9F762416C2FD0092B316 /* LocalNotificationManager.swift */,
+				04CC9F722416B6B60092B316 /* ListTableViewCell.swift */,
 				04C9826523F1D70100B867F3 /* Main.storyboard */,
 				04C9826823F1D70400B867F3 /* Assets.xcassets */,
 				04C9826A23F1D70400B867F3 /* LaunchScreen.storyboard */,
@@ -144,11 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CC9F792416CBD80092B316 /* UIViewController+Alert.swift in Sources */,
 				04C9826423F1D70100B867F3 /* ToDoListViewController.swift in Sources */,
+				04CC9F752416BE8C0092B316 /* ToDoItems.swift in Sources */,
 				04C9827423F1DFC200B867F3 /* ToDoDetailTableViewController.swift in Sources */,
 				04B4E00923F1FEDC00C85906 /* ToDoItem.swift in Sources */,
 				04C9826023F1D70100B867F3 /* AppDelegate.swift in Sources */,
 				04C9826223F1D70100B867F3 /* SceneDelegate.swift in Sources */,
+				04CC9F772416C2FD0092B316 /* LocalNotificationManager.swift in Sources */,
+				04CC9F732416B6B60092B316 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
